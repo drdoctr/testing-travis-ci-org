@@ -13,5 +13,4 @@ script:
   - date > test
   - date > test-token
   - pip install git+https://github.com/drdoctr/doctr.git@dotcom-fixes
-  - doctr deploy --built-docs test-token --token .
   - doctr deploy --built-docs test .
